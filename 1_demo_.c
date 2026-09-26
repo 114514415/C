@@ -2,7 +2,9 @@
 int main(){
     int hour1, hour2, minute1, minute2;
 
+    printf("Enter the first time(hour minute): ");
     scanf("%d %d", &hour1, &minute1);
+    printf("Enter the second time(hour minute): ");
     scanf("%d %d", &hour2, &minute2);
 
     int value_1 = hour1 * 60 + minute1;
